@@ -1,0 +1,38 @@
+file 1507 1768438086                                            
+version 3
+run General-0-20260115-01:43:25-23996
+attr configname General
+attr datetime 20260115-01:43:25
+attr datetimef 20260115-014325
+attr experiment General
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network Tictoc15
+attr processid 23996
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network Tictoc15
+config record-eventlog true
+config Tictoc4.t*c.limit 5
+config Tictoc7.tic.delayTime exponential(3s)
+config Tictoc7.toc.delayTime "truncnormal(3s, 1s)"
+
+vector 0 Tictoc15.tic[5] HopCount ETV
+vector 1 Tictoc15.tic[0] HopCount ETV
+vector 2 Tictoc15.tic[3] HopCount ETV
+vector 3 Tictoc15.tic[4] HopCount ETV
+vector 4 Tictoc15.tic[1] HopCount ETV
+vector 5 Tictoc15.tic[2] HopCount ETV
+0	842 109 18 366 1.7 36.5 8 1 29 85 1657
+1	951 168 29 393 2.8 39.2 12 2 31 119 1865
+2	1119 56 74 290 7.3 28.9 4 1 45 80 2766
+3	1175 131 77 351 7.6 35 10 1 19 40 444
+4	1306 141 140 394 13.9 39.3 10 1 13 33 273
+5	1447 58 145 343 14.4 34.2 4 4 13 36 390
+
