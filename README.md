@@ -19,7 +19,7 @@ This project demonstrates the progression from a simple two-node communication m
 To fully understand the project structure and how to replicate the simulation, please follow the documentation in this order:
 
 ### 1. [Installation Guide](README1_Installation_Guide.md)
-* *How to set up the OMNeT++ environment and import this project.*
+* *How to download and set up the OMNeT++ environment and import this project.*
 
 ### 2. [Work Steps](README2_Work_Steps.md)
 * *A step-by-step breakdown of how the code was built, covering the logic from Part 1 (Basic) to Part 5 (Statistics).*
